@@ -1,0 +1,58 @@
+/* Register Page Styles */
+.register-page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-light);
+  padding: 2rem;
+}
+
+.register-container {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+.register-container h2 {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.register-button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.85rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.register-button:hover {
+  background-color: var(--primary-dark);
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: var(--text-light);
+}
+
+.login-link a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
